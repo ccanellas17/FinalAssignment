@@ -184,7 +184,7 @@ def game_loop():
         thing_starty += thing_speed
         lineY += line_speed
 
-        display(thing_speed * 60, 5, 45, "Speed: %d px/s")
+        display(((thing_speed * 60)-1020), 5, 45, "Speed: %d km/h")
         display(score_game, 5, 5, "Score: %d")
 
         #CRASH BOUNDARIES ON THE DISPLAY
